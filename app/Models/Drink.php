@@ -16,4 +16,5 @@ class Drink extends Model
         'price',
         'quantity', 
     ];
+
 }
