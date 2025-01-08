@@ -6,10 +6,15 @@ namespace Tests\Unit\Http\Controller;
 
 use Tests\TestCase;
 
-class UserControllerTest extends TestCase
+
+class UserControllerTest extends TestCase 
 {
-    public function testMeuPrimeiroTeste(): void
+    public function testMeuPrimeiroTeste(): void 
     {
-        $this->assertTrue(true);
+        $userController = new UserController;
+        $resultado = $userController->save();
+
+        $this->assertTrue($result["message"] === "Usuaário Criado com sucesso");
+        // $this->assertTrue(condition: true);
     }
 }
