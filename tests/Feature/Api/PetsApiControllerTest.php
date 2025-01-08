@@ -9,7 +9,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 class PetsApiControllerTest extends TestCase
 {
-    private const BASE_URL = '/api/pets'; 
 
     // public function test_the_endpoint_retrieve_a_list_of_pets(): void
     // {
