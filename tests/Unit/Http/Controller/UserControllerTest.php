@@ -1,7 +1,11 @@
 <?php
 
-namespace Tests\Unit\Http\Controllers;
+declare (strict_types=1);
+
+namespace Tests\Unit\Http\Controller;
+
 use Tests\TestCase;
+
 
 class UserControllerTest extends TestCase 
 {
