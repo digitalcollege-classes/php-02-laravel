@@ -10,11 +10,11 @@ class Drink extends Model
     use HasFactory; //trait
 
     protected $fillable = [
-        'name', 
-        'type', 
-        'description', 
+        'name',
+        'type',
+        'description',
         'price',
-        'quantity', 
+        'quantity',
     ];
 
 }
